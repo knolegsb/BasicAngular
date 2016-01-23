@@ -1,11 +1,14 @@
-﻿var app = angular.module("computerApp", [ngRoute]);
+﻿var app = angular.module("computerApp", ['ngRoute'])
 
-app.config(['$routeProvider', function ($routeProvider) {
+.config(['$routeProvider', function ($routeProvider) {
     $routeProvider.
         when('/main', {
             templateUrl: 'main.html',
             controller: 'mainCtrl'
-        });
-}]);
+        }).
+        otherwise({ redirectTo: '/main' });
+}])
 
-//.controller('mainCtrl')
+.controller('mainCtrl', ['$scope', function ($scope) {
+    $scope.person = 'John Doe';
+}]);
