@@ -1,0 +1,29 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Orange County",
+    "street": "3333 Anorld Way",
+    "city": "Fulletion",
+    "state": "CA",
+    "zip": 92833,
+    "phone": "424-342-2534"
+  },
+  {
+    "id": 2,
+    "name": "San Bernadino County",
+    "street": "3333 Anorld Way",
+    "city": "Fulletion",
+    "state": "GA",
+    "zip": 23131,
+    "phone": "424-342-2534"
+  },
+  {
+    "id": 3,
+    "name": "Los Angeles County",
+    "street": "3333 Anorld Way",
+    "city": "Fulletion",
+    "state": "WA",
+    "zip": 23451,
+    "phone": "424-342-2534"
+  }
+]

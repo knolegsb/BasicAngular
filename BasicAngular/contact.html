@@ -7,24 +7,14 @@
                 <h2>Contact</h2>
                 <p>Please email support@computersolutions.com</p>
                 <h3>Locations</h3>
-                <ul>
-                    <li>Orange County Location</li>
-                    <li>3333 Anorld Way</li>
-                    <li>Fullerton CA 92833</li>
-                    <li>832-342-3324</li>
-                </ul>
-                <ul>
-                    <li>Los Angeles County Location</li>
-                    <li>3333 Anorld Way</li>
-                    <li>Fullerton CA 92833</li>
-                    <li>832-342-3324</li>
-                </ul>
-                <ul>
-                    <li>San Bernadino County Location</li>
-                    <li>3333 Anorld Way</li>
-                    <li>Fullerton CA 92833</li>
-                    <li>832-342-3324</li>
-                </ul>
+                <div ng-repeat="location in locations">
+                    <ul>
+                        <li>{{location.name}} Location</li>
+                        <li>{{location.street}}</li>
+                        <li>{{location.city}} {{location.state}} {{location.zip}}</li>
+                        <li>{{location.phone}}</li>
+                    </ul>                    
+                </div>
             </div>
         </div>
 

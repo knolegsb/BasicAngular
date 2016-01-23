@@ -21,17 +21,21 @@
         otherwise({ redirectTo: '/main' });
 }])
 
-.controller('mainCtrl', ['$scope', function ($scope) {
-    $scope.person = 'John Doe';
-}])
-.controller('aboutCtrl', ['$scope', function ($scope) {
-    $scope.person = 'John Doe';
-}])
-.controller('servicesCtrl', ['$scope', '$http', function ($scope, $http) {
-    $http.get('services.json').then(function(response){
+.controller('mainCtrl', ['$scope', '$http', function ($scope, $http) {
+    $http.get('Jsondata/services.json').then(function (response) {
         $scope.services = response.data;
     });
 }])
-.controller('contactCtrl', ['$scope', function ($scope) {
-    $scope.person = 'John Doe';
+.controller('aboutCtrl', ['$scope', function ($scope) {
+ 
+}])
+.controller('servicesCtrl', ['$scope', '$http', function ($scope, $http) {
+    $http.get('Jsondata/services.json').then(function(response){
+        $scope.services = response.data;
+    });
+}])
+.controller('contactCtrl', ['$scope', '$http', function ($scope, $http) {
+    $http.get('Jsondata/locations.json').then(function (response) {
+        $scope.locations = response.data;
+    });
 }]);
