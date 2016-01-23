@@ -1,60 +1,26 @@
 ﻿
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-    <title>Computer Solutions</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
-
-    <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet" />
-
-</head>
-
-<body>
-
-    <div class="container">
-
-        <!-- The justified navigation menu is meant for single line per list item.
-             Multiple lines will require custom code not provided by Bootstrap. -->
-        <div class="masthead">
-            <h3 class="text-muted">Computer Solutions</h3>
-            <nav>
-                <ul class="nav nav-justified">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-
 
         <!-- Example row of columns -->
         <div class="row">
 
             <div class="col-lg-12">
                 <h2>Services</h2>
-                <div class="row service">
-                    <div class="col-md-2">
-                        <img src="images/computer-icon.png" />
-                    </div>
-                    <div class="col-md-10">
-                        <h3>Hardware Repair</h3>
-                        <p>
-                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam pulvinar laoreet dolor, sed rhoncus eros vestibulum vel. Maecenas lobortis dignissim lacus a vulputate. Suspendisse fringilla eros id velit suscipit, a consectetur risus sollicitudin. Cras eget est placerat, interdum odio vitae, dignissim tortor. Donec sollicitudin leo non nibh fringilla, quis blandit ipsum scelerisque. Duis eget posuere dui. Fusce condimentum leo at porta efficitur. In interdum venenatis tellus, eu egestas ex rhoncus vitae. Duis consectetur, diam at dignissim imperdiet, metus leo ornare purus, nec interdum magna est vel ante
-                        </p>
-                        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                <div ng-repeat="service in services">
+                    <div class="row service">
+                        <div class="col-md-2">
+                            <img ng-src="images/{{service.image}}" />
+                        </div>
+                        <div class="col-md-10">
+                            <h3>{{service.name}}</h3>
+                            <p>
+                                {{service.description}}
+                            </p>
+                            <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="row service">
+                <!--<div class="row service">
                     <div class="col-md-2">
                         <img src="images/computer-icon.png" />
                     </div>
@@ -78,17 +44,8 @@
                         </p>
                         <a href="contact.html" class="btn btn-primary">Contact Us</a>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
 
-        <!-- Site footer -->
-        <footer class="footer">
-            <p>&copy; 2015 Company, Inc.</p>
-        </footer>
-
-    </div> <!-- /container -->
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-</body>
-</html>
+ 

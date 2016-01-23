@@ -1,0 +1,20 @@
+﻿[
+  {
+    "id": 1,
+    "name": "Hardware Repair",
+    "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam pulvinar laoreet dolor, sed rhoncus eros vestibulum vel. Maecenas lobortis dignissim lacus a vulputate. Suspendisse fringilla eros id velit suscipit, a consectetur risus sollicitudin. Cras eget est placerat, interdum odio vitae, dignissim tortor. Donec sollicitudin leo non nibh fringilla, quis blandit ipsum scelerisque. Duis eget posuere dui. Fusce condimentum leo at porta efficitur. In interdum venenatis tellus, eu egestas ex rhoncus vitae. Duis consectetur, diam at dignissim imperdiet, metus leo ornare purus, nec interdum magna est vel ante",
+    "image": "computer-icon.png"
+  },
+  {
+    "id": 2,
+    "name": "Virus Removal",
+    "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam pulvinar laoreet dolor, sed rhoncus eros vestibulum vel. Maecenas lobortis dignissim lacus a vulputate. Suspendisse fringilla eros id velit suscipit, a consectetur risus sollicitudin. Cras eget est placerat, interdum odio vitae, dignissim tortor. Donec sollicitudin leo non nibh fringilla, quis blandit ipsum scelerisque. Duis eget posuere dui. Fusce condimentum leo at porta efficitur. In interdum venenatis tellus, eu egestas ex rhoncus vitae. Duis consectetur, diam at dignissim imperdiet, metus leo ornare purus, nec interdum magna est vel ante",
+    "image": "computer-icon.png"
+  },
+  {
+    "id": 3,
+    "name": "System Tuneup",
+    "description": "Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam pulvinar laoreet dolor, sed rhoncus eros vestibulum vel. Maecenas lobortis dignissim lacus a vulputate. Suspendisse fringilla eros id velit suscipit, a consectetur risus sollicitudin. Cras eget est placerat, interdum odio vitae, dignissim tortor. Donec sollicitudin leo non nibh fringilla, quis blandit ipsum scelerisque. Duis eget posuere dui. Fusce condimentum leo at porta efficitur. In interdum venenatis tellus, eu egestas ex rhoncus vitae. Duis consectetur, diam at dignissim imperdiet, metus leo ornare purus, nec interdum magna est vel ante",
+    "image": "computer-icon.png"
+  }
+]
